@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto&display=swap');
+
+body {
+    background: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players-blogs {
+    background-color: white;
+    width: 870px;
+    padding: 33px 83px 42px 33px;
+    border-radius: 5px;
+
+
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 121px;
+    grid-row-gap: 29px;
+
+}
+
+.players img {
+    width: 56px;
+    height: 56px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+
+.player-text {
+    color: #562EFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 46px;
+    row-gap: 26px;
+
+}
+
+.blog-text {
+    color: #562EFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.first-blog {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.second-blog {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.third-blog {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.fourth-blog {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.top-blogs .first-blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.top-blogs .fourth-blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.top-blogs .third-blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.top-blogs .second-blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000
+}
+
+.blog-writer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.blog-writer a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.course {
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.courses {
+    width: 870px;
+    height: 362px;
+    background: #FFFFFF;
+    padding: 33px 83px 42px 33px;
+    margin-top: 21px;
+    margin-bottom: 28px;
+    border-radius: 5px;
+}
+
+.react .react-tutor a {
+    text-decoration: none;
+    color: #ED6B4F;
+}
+
+.Powerpoint .pwrpoint-tutor a {
+    text-decoration: none;
+    color: #ED6B4F;
+
+}
+
+.java .js-tutor a {
+    text-decoration: none;
+    color: #ED6B4F;
+}
+
+.courses .react img {
+    width: 224px;
+    height: 104px;
+}
+
+.courses .Powerpoint img {
+    width: 224.38px;
+    height: 105.51px;
+}
+
+.courses .java img {
+    width: 224.38px;
+    height: 105.51px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.react,
+.Powerpoint,
+.java {
+    padding-left: 12px;
+    width: 252.42px;
+    height: 269.79px;
+    border-radius: 10px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 5.4px;
+    width: 94.83px;
+    height: 29.38px;
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    padding: 5.34px;
+}
