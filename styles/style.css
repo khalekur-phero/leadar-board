@@ -147,7 +147,7 @@ hr {
 
 .courses {
     width: 870px;
-    height: 362px;
+    /* height: 362px; */
     background: #FFFFFF;
     padding: 33px 83px 42px 33px;
     margin-top: 21px;
@@ -220,4 +220,18 @@ hr {
     background: #FEE5DF;
     border-radius: 14.6913px;
     padding: 5.34px;
+}
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .courses,
+    .course {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
 }
